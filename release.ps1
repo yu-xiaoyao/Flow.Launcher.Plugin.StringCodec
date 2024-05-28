@@ -1,0 +1,2 @@
+dotnet publish Flow.Launcher.Plugin.StringCodec -c Release -r win-x64 --no-self-contained
+Compress-Archive -LiteralPath Flow.Launcher.Plugin.StringCodec/bin/Release/win-x64/publish -DestinationPath Flow.Launcher.Plugin.StringCodec/bin/StringCodec.zip -Force

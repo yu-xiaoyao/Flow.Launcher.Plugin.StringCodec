@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow.Launcher.Plugin.StringCodec", "Flow.Launcher.Plugin.StringCodec.csproj", "{60AA0B90-7B25-4916-B2D3-0F66C46695E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60AA0B90-7B25-4916-B2D3-0F66C46695E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AA0B90-7B25-4916-B2D3-0F66C46695E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AA0B90-7B25-4916-B2D3-0F66C46695E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AA0B90-7B25-4916-B2D3-0F66C46695E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D60C5E1F-2F87-4887-AFB4-CC7796E789F0}
+	EndGlobalSection
+EndGlobal

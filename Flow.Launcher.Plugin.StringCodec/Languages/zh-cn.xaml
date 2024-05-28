@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="plugin_title">字符串编解码插件</system:String>
+    <system:String x:Key="plugin_desp">一个字符串编解码插件 Base64,URL,UUID...</system:String>
+
+    <system:String x:Key="uuid_generate">生成 UUID</system:String>
+    <system:String x:Key="base64_codec">Base64 编解码</system:String>
+
+    <system:String x:Key="uuid_generate_count">生成 {0} UUID</system:String>
+    <system:String x:Key="encode_target">{0} 编码</system:String>
+    <system:String x:Key="decode_target">{0} 解码</system:String>
+    <system:String x:Key="encode_result">{0} 编码结果</system:String>
+    <system:String x:Key="decode_result">{0} 解码结果</system:String>
+    <system:String x:Key="decode_result_error">{0} 解码异常</system:String>
+
+    <system:String x:Key="input_empty">输入字符串为空</system:String>
+
+</ResourceDictionary>

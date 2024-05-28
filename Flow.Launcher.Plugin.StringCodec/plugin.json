@@ -1,0 +1,12 @@
+{
+    "ID": "3F7F654FCDAA4CEA860CA4382B12C89F",
+    "ActionKeyword": "strc",
+    "Name": "StringCodec",
+    "Description": "String Codec for base64,UUID...",
+    "Author": "yu-xiaoyao",
+    "Version": "1.0.0",
+    "Language": "csharp",
+    "Website": "https://github.com/yu-xiaoyao/Flow.Launcher.Plugin.StringCodec",
+    "IcoPath": "Images/string-codec-icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.StringCodec.dll"
+}
