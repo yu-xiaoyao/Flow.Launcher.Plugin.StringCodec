@@ -5,8 +5,8 @@ namespace Flow.Launcher.Plugin.StringCodec.Codec;
 
 public interface BaseEncodeDecodeCodec : BaseCodec
 {
-    public const string Decode = "Decode";
-    public const string Encode = "Encode";
+    public const string Decode = "De";
+    public const string Encode = "En";
     List<ResultItem> GetSubCommands(IPublicAPI publicApi, string second);
 
     List<Result> GetEncodeResult(IPublicAPI publicApi, string actionKeyword, string third);

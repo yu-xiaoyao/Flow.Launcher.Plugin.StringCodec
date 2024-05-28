@@ -76,12 +76,12 @@ namespace Flow.Launcher.Plugin.StringCodec
 
         public string GetTranslatedPluginTitle()
         {
-            return _context.API.GetTranslation("plugin_title");
+            return _context.API.GetTranslation("string_code_plugin_title");
         }
 
         public string GetTranslatedPluginDescription()
         {
-            return _context.API.GetTranslation("plugin_desp");
+            return _context.API.GetTranslation("string_code_plugin_desp");
         }
     }
 }

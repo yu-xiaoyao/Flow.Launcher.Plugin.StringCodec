@@ -4,8 +4,8 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <system:String x:Key="plugin_title">String Codec Plugin</system:String>
-    <system:String x:Key="plugin_desp">a plugin for codec Base64,URL,UUID...</system:String>
+    <system:String x:Key="string_code_plugin_title">String Codec Plugin</system:String>
+    <system:String x:Key="string_code_plugin_desp">a plugin for codec Base64,URL,UUID...</system:String>
 
     <system:String x:Key="uuid_generate">Generate UUID</system:String>
     <system:String x:Key="base64_codec">Base64 Codec</system:String>

@@ -9,7 +9,7 @@ public class Base64Codec : BaseEncodeDecodeCodec
 {
     public string GetName()
     {
-        return "Base64";
+        return "B64";
     }
 
     public string GetSubTitle(IPublicAPI publicApi)
