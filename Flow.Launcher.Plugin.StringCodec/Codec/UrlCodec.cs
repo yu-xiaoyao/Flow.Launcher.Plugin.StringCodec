@@ -84,7 +84,7 @@ public class UrlCodec : BaseEncodeDecodeCodec
             return GetInputEmptyResult(publicApi, actionKeyword);
 
 
-        var htmlEncode = HttpUtility.HtmlEncode(third);
+        var htmlEncode = HttpUtility.UrlEncode(third);
 
         return new List<Result>
         {
@@ -109,7 +109,7 @@ public class UrlCodec : BaseEncodeDecodeCodec
         if (string.IsNullOrEmpty(third))
             return GetInputEmptyResult(publicApi, actionKeyword);
 
-        var htmlDecode = HttpUtility.HtmlDecode(third);
+        var htmlDecode = HttpUtility.UrlDecode(third);
         return new List<Result>
         {
             new()
